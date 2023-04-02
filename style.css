@@ -17,11 +17,15 @@ ul {
     padding: 0;
 }
 li {
-    list-style: none;
+    list-style: none !important;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    color: inherit !important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 .clear-float {
     content: "";
@@ -60,8 +64,7 @@ a {
     text-align: center;
     width: 100%;
 }
-.carousel-description button{
-    padding: 4px 47px 6px 47px;
+.carousel-description a{
     text-transform: uppercase;
 }
 .title{
@@ -73,4 +76,27 @@ a {
 /* Advertisement */
 .advertisement-container{
     background-color: #f9f9fa;
+}
+/* cards section */
+.membership-bg{
+    background: url(images/MembershipBox1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 460px;
+}
+.club-bg{
+    background: url(images/ClubsAndSocietiesBox2.jpg) no-repeat;
+    background-size: cover;
+    min-height: 460px;
+}
+.card-heading{
+    font-size: 46px !important;
+    font-family: LucidaGrandeBold;
+    text-transform: uppercase;
+    line-height: 67px !important;
+}
+.membership-bg a{
+    text-transform: uppercase;
+}
+.card-padding{
+    padding: 119px 0 65px 0 !important;
 }
