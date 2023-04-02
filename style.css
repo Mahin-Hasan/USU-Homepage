@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.clear-float {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Top Tavbar */
+.top-navbar{
+    /* width: 1400px; */
+    /* margin: 0 auto; */
+}
+.logo{
+    float:left;
+    /* width: 7%; */
+}
+.logo img{
+    width: 120px;
+}
+.search-icon{
+    float: right;
+    /* width: 10%; */
+}
