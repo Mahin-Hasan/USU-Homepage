@@ -1,3 +1,7 @@
+@font-face{
+    src: url(fonts/LucidaGrandeBold.ttf);
+    font-family:LucidaGrandeBold;
+}
 * {
     box-sizing: border-box;
 }
@@ -39,4 +43,30 @@ a {
 .search-icon{
     float: right;
     /* width: 10%; */
+}
+/* image slider */
+.carousel-indicators [data-bs-target] {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+}
+.carousel-item img{
+    width: 1920px;
+    height: 620px;
+}
+.carousel-description{
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    width: 100%;
+}
+.carousel-description button{
+    padding: 4px 47px 6px 47px;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 60px !important;
+    font-family: LucidaGrandeBold;
+    text-transform: uppercase;
+    line-height: 124px !important;
 }
