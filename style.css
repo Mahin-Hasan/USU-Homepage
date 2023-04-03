@@ -94,7 +94,10 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     line-height: 67px !important;
 }
-.membership-bg a,.club-bg a{
+.membership-bg a,
+.club-bg a,
+.student-board-bg a,
+.volunteer-bg a{
     text-transform: uppercase;
 }
 .card-padding{
@@ -114,4 +117,15 @@ h1,h2,h3,h4,h5,h6{
 /* video container */
 iframe{
     min-height: 651px;
+}
+/* student board section */
+.student-board-bg{
+    background: url(images/OurStudentBoardDemoBox3.jpg) no-repeat;
+    background-size: cover;
+    min-height: 460px;
+}
+.volunteer-bg{
+    background: url(images/VolunteerDemoBox4.jpg) no-repeat;
+    background-size: cover;
+    min-height: 460px;
 }
