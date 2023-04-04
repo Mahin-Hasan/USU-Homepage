@@ -166,3 +166,9 @@ iframe {
     display: inline-block;
     padding-right: 18px;
 }
+
+/* Media Query for responsiveness */
+/* media query */
+@media (min-width: 0px) and (max-width: 576px) {
+
+}
