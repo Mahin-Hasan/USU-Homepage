@@ -60,7 +60,10 @@ h6 {
     float: right;
     /* width: 10%; */
 }
-
+/* Hidden menu */
+#hidden_item{
+    /* display: none; */
+}
 /* image slider */
 .carousel-indicators [data-bs-target] {
     width: 20px !important;
