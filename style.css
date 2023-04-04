@@ -62,7 +62,19 @@ h6 {
 }
 /* Hidden menu */
 #hidden_item{
-    /* display: none; */
+    display: none;
+}
+#hidden_item h5{
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 15px !important;
+}
+#hidden_item ul{
+    color: #aeaeae;
+}
+#hidden_item a{
+    display: inline-block;
+    padding-bottom: 4px;
 }
 /* image slider */
 .carousel-indicators [data-bs-target] {
