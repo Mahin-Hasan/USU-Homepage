@@ -2,34 +2,31 @@
     src: url(fonts/LucidaGrandeBold.ttf);
     font-family: LucidaGrandeBold;
 }
-
+@font-face {
+    font-family: LucidaGrande;
+    src: url(fonts/LucidaGrande.ttf);
+}
 * {
     box-sizing: border-box;
 }
-
 body {
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: LucidaGrande;
     margin: 0;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
-
 ul {
     margin: 0 !important;
     padding: 0 !important;
 }
-
 li {
     list-style: none !important;
 }
-
 a {
     text-decoration: none !important;
     color: inherit !important;
 }
-
 h1,
 h2,
 h3,
@@ -39,26 +36,20 @@ h6 {
     margin: 0 !important;
     padding: 0 !important;
 }
-
 .clear-float {
     content: "";
     clear: both;
     display: table;
 }
-
 /* Top Tavbar */
 .logo {
     float: left;
-    /* width: 7%; */
 }
-
 .logo img {
     width: 120px;
 }
-
 .search-icon {
     float: right;
-    /* width: 10%; */
 }
 /* Hidden menu */
 #hidden_item{
@@ -82,116 +73,95 @@ h6 {
     height: 20px !important;
     border-radius: 50% !important;
 }
-
 .carousel-item img {
     width: 1920px;
     height: 620px;
 }
-
 .carousel-description {
     position: absolute;
     top: 270px;
     text-align: center;
     width: 100%;
 }
-
 .carousel-description a {
     text-transform: uppercase;
 }
-
 .title {
     font-size: 60px !important;
     font-family: LucidaGrandeBold;
     text-transform: uppercase;
     line-height: 124px !important;
 }
-
 /* Advertisement */
 .advertisement-container {
     background-color: #f9f9fa;
 }
-
 /* cards section */
 .membership-bg {
     background: url(images/MembershipBox1.jpg) no-repeat;
     background-size: cover;
     min-height: 460px;
 }
-
 .club-bg {
     background: url(images/ClubsAndSocietiesBox2.jpg) no-repeat;
     background-size: cover;
     min-height: 460px;
 }
-
 .card-heading {
     font-size: 46px !important;
     font-family: LucidaGrandeBold;
     text-transform: uppercase;
     line-height: 67px !important;
 }
-
 .membership-bg a,
 .club-bg a,
 .student-board-bg a,
 .volunteer-bg a {
     text-transform: uppercase;
 }
-
 .card-padding {
     padding: 119px 0 65px 0 !important;
 }
-
 .cards-description {
     height: 113px;
 }
-
 .cards-description h5 {
     text-transform: uppercase;
 }
-
 .icon-position {
     position: absolute;
     right: 20px;
     bottom: 0;
 }
-
 /* video container */
 iframe {
     min-height: 651px;
 }
-
 /* student board section */
 .student-board-bg {
     background: url(images/OurStudentBoardDemoBox3.jpg) no-repeat;
     background-size: cover;
     min-height: 460px;
 }
-
 .volunteer-bg {
     background: url(images/VolunteerDemoBox4.jpg) no-repeat;
     background-size: cover;
     min-height: 460px;
 }
-
 /* footer */
 .footer-style li {
     margin-bottom: 20px;
 }
-
 .socials li {
     display: inline-block;
 }
-
 .socials a {
     padding-right: 14px;
 }
-
 /* copywrite section  */
 .copywrite-section li {
     display: inline-block;
 }
-
 .copywrite-section a {
     display: inline-block;
     padding-right: 18px;
