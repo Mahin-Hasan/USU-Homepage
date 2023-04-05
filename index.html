@@ -13,7 +13,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
     <title>USU Homepage</title>
 </head>
-
 <body>
     <!-- Top navigation bar -->
     <div class="bg-warning py-3">
@@ -22,7 +21,7 @@
                 <img src="images/usu_logo.png" alt="">
             </div>
             <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass fs-3 d-none d-md-inline"></i>
+                <i class="fa-solid fa-magnifying-glass fs-3 d-none d-sm-inline"></i>
                 <i onclick="toggleVisibility()" class="fa-sharp fa-solid fa-bars icon-hover fs-2 ms-3"></i>
             </div>
             <div class="clear-float">
@@ -31,8 +30,13 @@
         </div>
     </div>
     <!-- hidden menu -->
-    <div id="hidden_item" class="bg-black">
+    <div id="hidden_item" class="bg-black p-4 p-sm-0">
         <div class="container pt-4">
+            <div class="input-group d-sm-none mb-5">
+                <input type="text" class="form-control bg-body-tertiary border border-0 rounded-0 newsletter-input-height" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                <i class="fa-solid fa-magnifying-glass fs-2 bg-warning p-2"></i>
+            </div>
+
             <div class="row mb-5">
                 <div class="col-6 col-sm-4 col-md-3">
                     <h5>about us</h5>
@@ -134,7 +138,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active position-relative">
-                    <img src="images/Websitehomepageheader.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Websitehomepageheader.jpg" class="d-none d-sm-block w-100" alt="...">
+                    <img src="images/apppic.jpg" class="d-sm-none w-100" alt="...">
                     <div class="carousel-description">
                         <div>
                             <h1 class="title text-white">USU covid-19 update</h1>
@@ -145,7 +150,8 @@
                     </div>
                 </div>
                 <div class="carousel-item  position-relative">
-                    <img src="images/MembershipSlide2Slider1Desktop.jpg" class="d-block w-100" alt="...">
+                    <img src="images/MembershipSlide2Slider1Desktop.jpg" class="d-none d-sm-block w-100" alt="...">
+                    <img src="images/MembershipSlide2Slider1Mobile.jpg" class="d-sm-none w-100" alt="...">
                     <div class="carousel-description">
                         <div>
                             <h1 class="title text-white">membership</h1>
@@ -156,7 +162,8 @@
                     </div>
                 </div>
                 <div class="carousel-item  position-relative">
-                    <img src="images/webcarousel-1920x630.jpg" class="d-block w-100" alt="...">
+                    <img src="images/webcarousel-1920x630.jpg" class="d-none d-sm-block w-100" alt="...">
+                    <img src="images/webcarousel-mob-750x750.jpg" class="d-sm-none w-100" alt="...">
                     <div class="carousel-description">
                         <div>
                             <h1 class="title text-white">board nominations open</h1>
@@ -351,7 +358,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active position-relative">
-                    <img src="images/USYDStoreSlide1Slider2Desktop.jpg" class="d-block w-100" alt="...">
+                    <img src="images/USYDStoreSlide1Slider2Desktop.jpg" class="d-none d-sm-block w-100" alt="...">
+                    <img src="images/USYDStoreSlide1Slider2Mobile.jpg" class="d-sm-none w-100" alt="...">
                     <div class="carousel-description">
                         <div>
                             <h1 class="title text-white">usyd store</h1>
@@ -362,7 +370,8 @@
                     </div>
                 </div>
                 <div class="carousel-item position-relative">
-                    <img src="images/GradHireSlide2Slider2Desktop.jpg" class="d-block w-100" alt="...">
+                    <img src="images/GradHireSlide2Slider2Desktop.jpg" class="d-none d-sm-block w-100" alt="...">
+                    <img src="images/GradHireSlide2Slider2Mobile.jpg" class="d-sm-none w-100" alt="...">
                     <div class="carousel-description">
                         <div>
                             <h1 class="title text-white">usyd store</h1>
@@ -430,7 +439,7 @@
         </div>
     </div>
     <!-- footer section -->
-    <div class="bg-black">
+    <div class="bg-black p-4 p-sm-0">
         <div class="text-uppercase footer-style">
             <div class="container text-white pt-5 pb-3 fs-4">
                 <div class="row">
