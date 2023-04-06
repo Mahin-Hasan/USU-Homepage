@@ -105,13 +105,15 @@ h6 {
 }
 .membership-bg {
     background: url(images/MembershipBox1.jpg) no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100%;
     background-position: center;
     min-height: 460px;
 }
 .club-bg {
     background: url(images/ClubsAndSocietiesBox2.jpg) no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100%;
     background-position: center;
     min-height: 460px;
 }
@@ -148,13 +150,15 @@ iframe {
 /* student board section */
 .student-board-bg {
     background: url(images/OurStudentBoardDemoBox3.jpg) no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100%;
     background-position: center;
     min-height: 460px;
 }
 .volunteer-bg {
     background: url(images/VolunteerDemoBox4.jpg) no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100%;
     background-position: center;
     min-height: 460px;
 }
@@ -188,6 +192,12 @@ iframe {
         line-height: 60px !important;
         padding-bottom: 20px;
     }
+    .membership-bg,.club-bg,.volunteer-bg,.student-board-bg{
+        min-height: 282px;
+    }
+    .card-padding {
+        padding: 29px 0 19px 0 !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px) {
     .carousel-description{
@@ -201,13 +211,17 @@ iframe {
         font-size: 32px !important;
         font-family: LucidaGrandeBold;
         text-transform: uppercase;
-        line-height: 42px !important;
+        line-height: 24px !important;
     }
     .card-padding {
-        padding: 119px 0 30px 0 !important;
+        padding: 54px 0 24px 0 !important;
     }
     .membership-bg,.club-bg,.volunteer-bg,.student-board-bg{
-        min-height: 350px;
+        min-height: 178px;
+    }
+    .card-heading {
+        font-size: 24px !important;
+        line-height: 24px !important;
     }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -218,15 +232,36 @@ iframe {
         font-size: 50px !important;
         line-height: 92px !important;
     }
+    .card-heading {
+        font-size: 29px !important;
+    }
+    .membership-bg,.club-bg,.student-board-bg,.volunteer-bg {
+        min-height: 276px;
+    }
+    .card-padding {
+        padding: 62px 0 45px 0 !important;
+    }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
     .carousel-description{
         top: 120px;
     }
+    .membership-bg,.club-bg,.volunteer-bg,.student-board-bg{
+        min-height: 332px;
+    }
+    .card-padding {
+        padding: 100px 0 65px 0 !important;
+    }
+    .card-heading {
+        line-height: 55px !important;
+    }
 }
 @media (min-width: 1200px) and (max-width:1500px){
     .carousel-description{
         top: 158px;
+    }
+    .membership-bg,.club-bg,.volunteer-bg,.student-board-bg{
+        min-height: 396px;
     }
 }
 @media (min-width: 1500px) and (max-width:1600px){
